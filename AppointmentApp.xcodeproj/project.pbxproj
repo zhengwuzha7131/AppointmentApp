@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		0AF574CD2BF5454800CD7F15 /* AppointmentAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF574CC2BF5454800CD7F15 /* AppointmentAppApp.swift */; };
-		0AF574CF2BF5454800CD7F15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF574CE2BF5454800CD7F15 /* ContentView.swift */; };
+		0AF574CF2BF5454800CD7F15 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF574CE2BF5454800CD7F15 /* HomeView.swift */; };
 		0AF574D12BF5454A00CD7F15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF574D02BF5454A00CD7F15 /* Assets.xcassets */; };
 		0AF574D42BF5454A00CD7F15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF574D32BF5454A00CD7F15 /* Preview Assets.xcassets */; };
 		0AF574DE2BF5454A00CD7F15 /* AppointmentAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF574DD2BF5454A00CD7F15 /* AppointmentAppTests.swift */; };
 		0AF574E82BF5454A00CD7F15 /* AppointmentAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF574E72BF5454A00CD7F15 /* AppointmentAppUITests.swift */; };
 		0AF574EA2BF5454A00CD7F15 /* AppointmentAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF574E92BF5454A00CD7F15 /* AppointmentAppUITestsLaunchTests.swift */; };
+		0AF574FD2BFBE6FD00CD7F15 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF574FC2BFBE6FD00CD7F15 /* DayView.swift */; };
+		0AF574FF2BFBE91700CD7F15 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF574FE2BFBE91700CD7F15 /* Date+Ext.swift */; };
+		0AF575012BFBEDE600CD7F15 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF575002BFBEDE600CD7F15 /* BookingView.swift */; };
+		0AF575032BFF10F700CD7F15 /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF575022BFF10F700CD7F15 /* ConfirmationView.swift */; };
+		0AF575052BFF184900CD7F15 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF575042BFF184900CD7F15 /* DatabaseManager.swift */; };
+		0AF575082BFF1B8500CD7F15 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 0AF575072BFF1B8500CD7F15 /* Auth */; };
+		0AF5750A2BFF1B8500CD7F15 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 0AF575092BFF1B8500CD7F15 /* Functions */; };
+		0AF5750C2BFF1B8500CD7F15 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 0AF5750B2BFF1B8500CD7F15 /* PostgREST */; };
+		0AF5750E2BFF1B8500CD7F15 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 0AF5750D2BFF1B8500CD7F15 /* Realtime */; };
+		0AF575102BFF1B8500CD7F15 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 0AF5750F2BFF1B8500CD7F15 /* Storage */; };
+		0AF575122BFF1B8500CD7F15 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 0AF575112BFF1B8500CD7F15 /* Supabase */; };
+		0AF575142C04539D00CD7F15 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF575132C04539D00CD7F15 /* AppRouter.swift */; };
+		0AF575162C066D8300CD7F15 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF575152C066D8300CD7F15 /* LoginView.swift */; };
+		0AF575182C066E9100CD7F15 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF575172C066E9100CD7F15 /* AuthManager.swift */; };
+		0AF5751A2C0670EB00CD7F15 /* SignInApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF575192C0670EB00CD7F15 /* SignInApple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +51,7 @@
 /* Begin PBXFileReference section */
 		0AF574C92BF5454800CD7F15 /* AppointmentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppointmentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF574CC2BF5454800CD7F15 /* AppointmentAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentAppApp.swift; sourceTree = "<group>"; };
-		0AF574CE2BF5454800CD7F15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0AF574CE2BF5454800CD7F15 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0AF574D02BF5454A00CD7F15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AF574D32BF5454A00CD7F15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0AF574D92BF5454A00CD7F15 /* AppointmentAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppointmentAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +59,15 @@
 		0AF574E32BF5454A00CD7F15 /* AppointmentAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppointmentAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF574E72BF5454A00CD7F15 /* AppointmentAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentAppUITests.swift; sourceTree = "<group>"; };
 		0AF574E92BF5454A00CD7F15 /* AppointmentAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0AF574FC2BFBE6FD00CD7F15 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		0AF574FE2BFBE91700CD7F15 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		0AF575002BFBEDE600CD7F15 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		0AF575022BFF10F700CD7F15 /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		0AF575042BFF184900CD7F15 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		0AF575132C04539D00CD7F15 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		0AF575152C066D8300CD7F15 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0AF575172C066E9100CD7F15 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		0AF575192C0670EB00CD7F15 /* SignInApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInApple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +75,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF5750C2BFF1B8500CD7F15 /* PostgREST in Frameworks */,
+				0AF5750A2BFF1B8500CD7F15 /* Functions in Frameworks */,
+				0AF575122BFF1B8500CD7F15 /* Supabase in Frameworks */,
+				0AF575082BFF1B8500CD7F15 /* Auth in Frameworks */,
+				0AF575102BFF1B8500CD7F15 /* Storage in Frameworks */,
+				0AF5750E2BFF1B8500CD7F15 /* Realtime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +124,19 @@
 		0AF574CB2BF5454800CD7F15 /* AppointmentApp */ = {
 			isa = PBXGroup;
 			children = (
+				0AF575042BFF184900CD7F15 /* DatabaseManager.swift */,
+				0AF575022BFF10F700CD7F15 /* ConfirmationView.swift */,
 				0AF574CC2BF5454800CD7F15 /* AppointmentAppApp.swift */,
-				0AF574CE2BF5454800CD7F15 /* ContentView.swift */,
+				0AF574CE2BF5454800CD7F15 /* HomeView.swift */,
 				0AF574D02BF5454A00CD7F15 /* Assets.xcassets */,
 				0AF574D22BF5454A00CD7F15 /* Preview Content */,
+				0AF574FC2BFBE6FD00CD7F15 /* DayView.swift */,
+				0AF574FE2BFBE91700CD7F15 /* Date+Ext.swift */,
+				0AF575002BFBEDE600CD7F15 /* BookingView.swift */,
+				0AF575132C04539D00CD7F15 /* AppRouter.swift */,
+				0AF575152C066D8300CD7F15 /* LoginView.swift */,
+				0AF575172C066E9100CD7F15 /* AuthManager.swift */,
+				0AF575192C0670EB00CD7F15 /* SignInApple.swift */,
 			);
 			path = AppointmentApp;
 			sourceTree = "<group>";
@@ -143,6 +182,14 @@
 			dependencies = (
 			);
 			name = AppointmentApp;
+			packageProductDependencies = (
+				0AF575072BFF1B8500CD7F15 /* Auth */,
+				0AF575092BFF1B8500CD7F15 /* Functions */,
+				0AF5750B2BFF1B8500CD7F15 /* PostgREST */,
+				0AF5750D2BFF1B8500CD7F15 /* Realtime */,
+				0AF5750F2BFF1B8500CD7F15 /* Storage */,
+				0AF575112BFF1B8500CD7F15 /* Supabase */,
+			);
 			productName = AppointmentApp;
 			productReference = 0AF574C92BF5454800CD7F15 /* AppointmentApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +262,9 @@
 				Base,
 			);
 			mainGroup = 0AF574C02BF5454800CD7F15;
+			packageReferences = (
+				0AF575062BFF195D00CD7F15 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = 0AF574CA2BF5454800CD7F15 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +307,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AF574CF2BF5454800CD7F15 /* ContentView.swift in Sources */,
+				0AF575142C04539D00CD7F15 /* AppRouter.swift in Sources */,
+				0AF574CF2BF5454800CD7F15 /* HomeView.swift in Sources */,
+				0AF575032BFF10F700CD7F15 /* ConfirmationView.swift in Sources */,
+				0AF575162C066D8300CD7F15 /* LoginView.swift in Sources */,
+				0AF574FD2BFBE6FD00CD7F15 /* DayView.swift in Sources */,
 				0AF574CD2BF5454800CD7F15 /* AppointmentAppApp.swift in Sources */,
+				0AF574FF2BFBE91700CD7F15 /* Date+Ext.swift in Sources */,
+				0AF5751A2C0670EB00CD7F15 /* SignInApple.swift in Sources */,
+				0AF575012BFBEDE600CD7F15 /* BookingView.swift in Sources */,
+				0AF575052BFF184900CD7F15 /* DatabaseManager.swift in Sources */,
+				0AF575182C066E9100CD7F15 /* AuthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +641,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0AF575062BFF195D00CD7F15 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0AF575072BFF1B8500CD7F15 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0AF575062BFF195D00CD7F15 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		0AF575092BFF1B8500CD7F15 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0AF575062BFF195D00CD7F15 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		0AF5750B2BFF1B8500CD7F15 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0AF575062BFF195D00CD7F15 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		0AF5750D2BFF1B8500CD7F15 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0AF575062BFF195D00CD7F15 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		0AF5750F2BFF1B8500CD7F15 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0AF575062BFF195D00CD7F15 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		0AF575112BFF1B8500CD7F15 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0AF575062BFF195D00CD7F15 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0AF574C12BF5454800CD7F15 /* Project object */;
 }
